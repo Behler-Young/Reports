@@ -3,7 +3,7 @@
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
     <DataSource Name="ERPDataPhocas">
-      <DataSourceReference>/Data Sources/ERPData - Phocas</DataSourceReference>
+      <DataSourceReference>ERPData - Phocas</DataSourceReference>
       <rd:SecurityType>None</rd:SecurityType>
       <rd:DataSourceID>7c081d77-1bf7-4c6d-80f2-3f827ca6987d</rd:DataSourceID>
     </DataSource>

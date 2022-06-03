@@ -3,7 +3,7 @@
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
     <DataSource Name="FormStackWebapps">
-      <DataSourceReference>/Data Sources/FormStack - Webapps</DataSourceReference>
+      <DataSourceReference>FormStack - Webapps</DataSourceReference>
       <rd:SecurityType>None</rd:SecurityType>
       <rd:DataSourceID>0ddbff9b-6352-4ad7-b51d-90818008a037</rd:DataSourceID>
     </DataSource>

@@ -3,7 +3,7 @@
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
     <DataSource Name="BargainBuysWebapps">
-      <DataSourceReference>/Data Sources/BargainBuys - Webapps</DataSourceReference>
+      <DataSourceReference>BargainBuys - Webapps</DataSourceReference>
       <rd:SecurityType>None</rd:SecurityType>
       <rd:DataSourceID>29aca362-8c35-478f-998f-b10f4877527e</rd:DataSourceID>
     </DataSource>

@@ -3,7 +3,7 @@
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
     <DataSource Name="EquipmentMaintenanceWebApps">
-      <DataSourceReference>/Data Sources/Equipment Maintenance - WebApps</DataSourceReference>
+      <DataSourceReference>Equipment Maintenance - WebApps</DataSourceReference>
       <rd:SecurityType>None</rd:SecurityType>
       <rd:DataSourceID>ecf7f9bc-1c70-4371-8965-af15a37dbe47</rd:DataSourceID>
     </DataSource>

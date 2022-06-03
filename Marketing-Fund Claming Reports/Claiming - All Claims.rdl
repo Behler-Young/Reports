@@ -3,7 +3,7 @@
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
     <DataSource Name="ClaimAppWebApps">
-      <DataSourceReference>/Data Sources/ClaimApp - WebApps</DataSourceReference>
+      <DataSourceReference>ClaimApp - WebApps</DataSourceReference>
       <rd:SecurityType>None</rd:SecurityType>
       <rd:DataSourceID>a77c0cd8-cab5-43f9-bfe0-51b59581e105</rd:DataSourceID>
     </DataSource>

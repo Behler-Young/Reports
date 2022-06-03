@@ -3,7 +3,7 @@
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
     <DataSource Name="CashAppWebapps">
-      <DataSourceReference>/Data Sources/CashApp - Webapps</DataSourceReference>
+      <DataSourceReference>CashApp - Webapps</DataSourceReference>
       <rd:SecurityType>None</rd:SecurityType>
       <rd:DataSourceID>f994dddf-3f1c-4245-ae11-b9cdf7647ffe</rd:DataSourceID>
     </DataSource>

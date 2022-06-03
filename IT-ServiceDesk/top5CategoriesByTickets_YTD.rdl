@@ -3,7 +3,7 @@
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
     <DataSource Name="DS1">
-      <DataSourceReference>/Data Sources/ITServiceDesk - BYCORPSQL</DataSourceReference>
+      <DataSourceReference>ITServiceDesk - BYCORPSQL</DataSourceReference>
       <rd:SecurityType>None</rd:SecurityType>
       <rd:DataSourceID>f272688e-b223-45d4-bc54-ff4cb7dde8f7</rd:DataSourceID>
     </DataSource>

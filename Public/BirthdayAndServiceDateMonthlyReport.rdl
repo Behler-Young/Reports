@@ -4,7 +4,7 @@
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
     <DataSource Name="HRWebApps">
-      <DataSourceReference>/Data Sources/HR - WebApps</DataSourceReference>
+      <DataSourceReference>HR - WebApps</DataSourceReference>
       <rd:SecurityType>None</rd:SecurityType>
       <rd:DataSourceID>aca9263d-e5c7-4267-933c-0238c76e3f45</rd:DataSourceID>
     </DataSource>

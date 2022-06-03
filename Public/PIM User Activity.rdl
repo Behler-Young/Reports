@@ -3,7 +3,7 @@
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
     <DataSource Name="PIMWebApps">
-      <DataSourceReference>/Data Sources/PIM - WebApps</DataSourceReference>
+      <DataSourceReference>PIM - WebApps</DataSourceReference>
       <rd:SecurityType>None</rd:SecurityType>
       <rd:DataSourceID>63eaa8b9-c52d-438f-978a-dfb065a452cf</rd:DataSourceID>
     </DataSource>
