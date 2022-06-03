@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="ERPData - Phocas">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=phocas; Initial Catalog=ERPData</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>759b14b9-49d3-4dff-bcdc-623a9de87ed3</DataSourceID>
+</RptDataSource>
