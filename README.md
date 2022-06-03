@@ -27,7 +27,7 @@ To run this solution, you need the following prerequisites.
 
 **Software prerequisites:**
 
-1. A Server with SQL Server Reporting Services 2016 (or higher) configured (https://docs.microsoft.com/en-us/sql/reporting-services/install-windows/install-reporting-services?view=sql-server-ver16)
+1. A Server with SQL Server Reporting Services 2016 (or higher) configured [SSMS](https://docs.microsoft.com/en-us/sql/reporting-services/install-windows/install-reporting-services?view=sql-server-ver16)
 2. Visual Studio 2019 (or higher) [Visual Studio Community](https://visualstudio.microsoft.com/vs/community/)
 3. Microsoft Reporting Services Projects extension (for version of Visual Studio installed) [Microsoft Reporting Services Projects 2022](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftReportProjectsforVisualStudio2022)
 
@@ -47,7 +47,7 @@ Note: Shared Data Sources and Datasets are duplicated within different projects,
 
 ## Solution deployment
 
-First open properties for the project/folder to publish. Make sure the SQL Server version matches the production server.  Finally, right-click the RDLC file to update and select Deploy. Wee [Publishing Reports to a Report Server](https://docs.microsoft.com/en-us/sql/reporting-services/reports/publishing-reports-to-a-report-server?view=sql-server-ver16) for more details.
+First open properties for the project/folder to publish. Make sure the SQL Server version matches the production server.  Finally, right-click the RDL file to update and select Deploy. See [Publishing Reports to a Report Server](https://docs.microsoft.com/en-us/sql/reporting-services/reports/publishing-reports-to-a-report-server?view=sql-server-ver16) for more details.
 
 ## Related Links
 <!-- Links to more articles. Remember to delete "en-us" from the link path. -->

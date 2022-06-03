@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="HR - WebApps">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=webapps; Initial Catalog=HR</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>fed30982-5b40-4532-bdb0-452cda69ebf1</DataSourceID>
+</RptDataSource>

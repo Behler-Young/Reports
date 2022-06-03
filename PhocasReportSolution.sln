@@ -29,6 +29,10 @@ Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Marketing", "Marketing\Mark
 EndProject
 Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Marketing-Fund Claming Reports", "Marketing-Fund Claming Reports\Marketing-Fund Claming Reports.rptproj", "{CEAA59FB-0E43-4833-9A1A-AA988D44D2BC}"
 EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Public", "Public\Public.rptproj", "{9B216AE0-2263-4036-BE29-C6D7C4ADE7C9}"
+EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Sales", "Sales\Sales.rptproj", "{04A80F10-E4F5-4194-8317-9CE9CFA205BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Default = Debug|Default
@@ -140,6 +144,22 @@ Global
 		{CEAA59FB-0E43-4833-9A1A-AA988D44D2BC}.Release|Default.ActiveCfg = Release
 		{CEAA59FB-0E43-4833-9A1A-AA988D44D2BC}.Release|Default.Build.0 = Release
 		{CEAA59FB-0E43-4833-9A1A-AA988D44D2BC}.Release|Default.Deploy.0 = Release
+		{9B216AE0-2263-4036-BE29-C6D7C4ADE7C9}.Debug|Default.ActiveCfg = Debug
+		{9B216AE0-2263-4036-BE29-C6D7C4ADE7C9}.Debug|Default.Build.0 = Debug
+		{9B216AE0-2263-4036-BE29-C6D7C4ADE7C9}.Debug|Default.Deploy.0 = Debug
+		{9B216AE0-2263-4036-BE29-C6D7C4ADE7C9}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{9B216AE0-2263-4036-BE29-C6D7C4ADE7C9}.DebugLocal|Default.Build.0 = DebugLocal
+		{9B216AE0-2263-4036-BE29-C6D7C4ADE7C9}.Release|Default.ActiveCfg = Release
+		{9B216AE0-2263-4036-BE29-C6D7C4ADE7C9}.Release|Default.Build.0 = Release
+		{9B216AE0-2263-4036-BE29-C6D7C4ADE7C9}.Release|Default.Deploy.0 = Release
+		{04A80F10-E4F5-4194-8317-9CE9CFA205BD}.Debug|Default.ActiveCfg = Debug
+		{04A80F10-E4F5-4194-8317-9CE9CFA205BD}.Debug|Default.Build.0 = Debug
+		{04A80F10-E4F5-4194-8317-9CE9CFA205BD}.Debug|Default.Deploy.0 = Debug
+		{04A80F10-E4F5-4194-8317-9CE9CFA205BD}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{04A80F10-E4F5-4194-8317-9CE9CFA205BD}.DebugLocal|Default.Build.0 = DebugLocal
+		{04A80F10-E4F5-4194-8317-9CE9CFA205BD}.Release|Default.ActiveCfg = Release
+		{04A80F10-E4F5-4194-8317-9CE9CFA205BD}.Release|Default.Build.0 = Release
+		{04A80F10-E4F5-4194-8317-9CE9CFA205BD}.Release|Default.Deploy.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
