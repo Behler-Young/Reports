@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="FormStack - Webapps">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=webapps; Initial Catalog=FormStack</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>f4d1c289-3274-49d8-9b8d-91b52ae8de43</DataSourceID>
+</RptDataSource>

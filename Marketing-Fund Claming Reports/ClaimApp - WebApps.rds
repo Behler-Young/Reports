@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="ClaimApp - WebApps">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=webapps; Initial Catalog=Fund-Claims</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>a9cda91c-4f56-453e-9461-ee6402b6fd79</DataSourceID>
+</RptDataSource>

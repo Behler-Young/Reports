@@ -8,7 +8,7 @@
     <OverwriteDataSources>False</OverwriteDataSources>
     <TargetServerVersion>SSRS2016</TargetServerVersion>
     <Platform>Win32</Platform>
-    <TargetReportFolder>Accounting</TargetReportFolder>
+    <TargetReportFolder>Sales</TargetReportFolder>
     <TargetDatasetFolder>Datasets</TargetDatasetFolder>
     <TargetDatasourceFolder>Data Sources</TargetDatasourceFolder>
     <TargetReportPartFolder>Report Parts</TargetReportPartFolder>
@@ -22,7 +22,7 @@
     <OverwriteDataSources>False</OverwriteDataSources>
     <TargetServerVersion>SSRS2016</TargetServerVersion>
     <Platform>Win32</Platform>
-    <TargetReportFolder>Accounting</TargetReportFolder>
+    <TargetReportFolder>Sales</TargetReportFolder>
     <TargetDatasetFolder>Datasets</TargetDatasetFolder>
     <TargetDatasourceFolder>Data Sources</TargetDatasourceFolder>
     <TargetReportPartFolder>Report Parts</TargetReportPartFolder>
@@ -36,7 +36,7 @@
     <OverwriteDataSources>False</OverwriteDataSources>
     <TargetServerVersion>SSRS2016</TargetServerVersion>
     <Platform>Win32</Platform>
-    <TargetReportFolder>Accounting</TargetReportFolder>
+    <TargetReportFolder>Sales</TargetReportFolder>
     <TargetDatasetFolder>Datasets</TargetDatasetFolder>
     <TargetDatasourceFolder>Data Sources</TargetDatasourceFolder>
     <TargetReportPartFolder>Report Parts</TargetReportPartFolder>
@@ -49,18 +49,26 @@
     <Reports>@(Report)</Reports>
   </PropertyGroup>
   <ItemGroup>
-    <DataSource Include="CashApp - Webapps.rds" />
     <DataSource Include="ERPData - Phocas.rds" />
   </ItemGroup>
   <ItemGroup>
-    <Report Include="Carrier Open POs.rdl" />
-    <Report Include="CashApp - Cash and Check Deposits.rdl" />
-    <Report Include="CashApp - Credit Card Deposits.rdl" />
-    <Report Include="CashApp - Daily Deposits.rdl" />
-    <Report Include="CashApp - Monthly Deposits.rdl" />
-    <Report Include="CashApp - Pending Deposit.rdl" />
-    <Report Include="GL1390 Report.rdl" />
-    <Report Include="MonthlyAR.rdl" />
+    <Report Include="AC Engineers Quarterly Report.rdl" />
+    <Report Include="After Hours Report Branch.rdl" />
+    <Report Include="After Hours Report Customer.rdl" />
+    <Report Include="Bargain Buys Items.rdl" />
+    <Report Include="Bryant - Customer Scorecard.rdl" />
+    <Report Include="Bryant - TM Scorecard.rdl" />
+    <Report Include="BSC Customer Details.rdl" />
+    <Report Include="BSC TM Details.rdl" />
+    <Report Include="Customer Sales Report v2.rdl" />
+    <Report Include="Customer Sales Report.rdl" />
+    <Report Include="FER Furnace Transition Quantities - Payne.rdl" />
+    <Report Include="FER Furnace Transition Quantities.rdl" />
+    <Report Include="NE-Orphan-999-Report.rdl" />
+    <Report Include="Quality Air Quarterly Report.rdl" />
+    <Report Include="Schaafsma Quarterly Report.rdl" />
+    <Report Include="SE-Orphan-999-Report.rdl" />
+    <Report Include="WST-Orphan-999-Report.rdl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
 </Project>

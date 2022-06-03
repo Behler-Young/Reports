@@ -8,7 +8,7 @@
     <OverwriteDataSources>False</OverwriteDataSources>
     <TargetServerVersion>SSRS2016</TargetServerVersion>
     <Platform>Win32</Platform>
-    <TargetReportFolder>Accounting</TargetReportFolder>
+    <TargetReportFolder>FormStack</TargetReportFolder>
     <TargetDatasetFolder>Datasets</TargetDatasetFolder>
     <TargetDatasourceFolder>Data Sources</TargetDatasourceFolder>
     <TargetReportPartFolder>Report Parts</TargetReportPartFolder>
@@ -22,7 +22,7 @@
     <OverwriteDataSources>False</OverwriteDataSources>
     <TargetServerVersion>SSRS2016</TargetServerVersion>
     <Platform>Win32</Platform>
-    <TargetReportFolder>Accounting</TargetReportFolder>
+    <TargetReportFolder>FormStack</TargetReportFolder>
     <TargetDatasetFolder>Datasets</TargetDatasetFolder>
     <TargetDatasourceFolder>Data Sources</TargetDatasourceFolder>
     <TargetReportPartFolder>Report Parts</TargetReportPartFolder>
@@ -36,7 +36,7 @@
     <OverwriteDataSources>False</OverwriteDataSources>
     <TargetServerVersion>SSRS2016</TargetServerVersion>
     <Platform>Win32</Platform>
-    <TargetReportFolder>Accounting</TargetReportFolder>
+    <TargetReportFolder>FormStack</TargetReportFolder>
     <TargetDatasetFolder>Datasets</TargetDatasetFolder>
     <TargetDatasourceFolder>Data Sources</TargetDatasourceFolder>
     <TargetReportPartFolder>Report Parts</TargetReportPartFolder>
@@ -49,18 +49,10 @@
     <Reports>@(Report)</Reports>
   </PropertyGroup>
   <ItemGroup>
-    <DataSource Include="CashApp - Webapps.rds" />
-    <DataSource Include="ERPData - Phocas.rds" />
+    <DataSource Include="FormStack - Webapps.rds" />
   </ItemGroup>
   <ItemGroup>
-    <Report Include="Carrier Open POs.rdl" />
-    <Report Include="CashApp - Cash and Check Deposits.rdl" />
-    <Report Include="CashApp - Credit Card Deposits.rdl" />
-    <Report Include="CashApp - Daily Deposits.rdl" />
-    <Report Include="CashApp - Monthly Deposits.rdl" />
-    <Report Include="CashApp - Pending Deposit.rdl" />
-    <Report Include="GL1390 Report.rdl" />
-    <Report Include="MonthlyAR.rdl" />
+    <Report Include="associateSymptoms.rdl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
 </Project>

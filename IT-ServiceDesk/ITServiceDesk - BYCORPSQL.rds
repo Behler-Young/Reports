@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="ITServiceDesk - BYCORPSQL">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>data source=bycorpsql; initial catalog=ITServiceDesk</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>99341ee1-6fd0-42bc-8349-d6f027e25b0b</DataSourceID>
+</RptDataSource>
