@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Accounting", "Accounting\Accounting.rptproj", "{00213FA5-D691-4CAA-86E5-48C613D3E0C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00213FA5-D691-4CAA-86E5-48C613D3E0C2}.Debug|Default.ActiveCfg = Debug
+		{00213FA5-D691-4CAA-86E5-48C613D3E0C2}.Debug|Default.Build.0 = Debug
+		{00213FA5-D691-4CAA-86E5-48C613D3E0C2}.Debug|Default.Deploy.0 = Debug
+		{00213FA5-D691-4CAA-86E5-48C613D3E0C2}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{00213FA5-D691-4CAA-86E5-48C613D3E0C2}.DebugLocal|Default.Build.0 = DebugLocal
+		{00213FA5-D691-4CAA-86E5-48C613D3E0C2}.Release|Default.ActiveCfg = Release
+		{00213FA5-D691-4CAA-86E5-48C613D3E0C2}.Release|Default.Build.0 = Release
+		{00213FA5-D691-4CAA-86E5-48C613D3E0C2}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01B2B470-5783-4E95-8562-ADE44859BDDD}
+	EndGlobalSection
+EndGlobal
