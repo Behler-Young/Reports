@@ -5,8 +5,6 @@ VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Accounting", "Accounting\Accounting.rptproj", "{00213FA5-D691-4CAA-86E5-48C613D3E0C2}"
 EndProject
-Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Credit", "Credit\Credit.rptproj", "{9B1DAE40-D158-43C8-8897-417A4EAFE715}"
-EndProject
 Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Customer Reports", "Customer Reports\Customer Reports.rptproj", "{0C824BE4-8811-4015-BAEF-32F26E43DB1B}"
 EndProject
 Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Executive", "Executive\Executive.rptproj", "{12F328C4-348A-4D1B-ACAA-269A71DF3652}"
@@ -48,14 +46,6 @@ Global
 		{00213FA5-D691-4CAA-86E5-48C613D3E0C2}.Release|Default.ActiveCfg = Release
 		{00213FA5-D691-4CAA-86E5-48C613D3E0C2}.Release|Default.Build.0 = Release
 		{00213FA5-D691-4CAA-86E5-48C613D3E0C2}.Release|Default.Deploy.0 = Release
-		{9B1DAE40-D158-43C8-8897-417A4EAFE715}.Debug|Default.ActiveCfg = Debug
-		{9B1DAE40-D158-43C8-8897-417A4EAFE715}.Debug|Default.Build.0 = Debug
-		{9B1DAE40-D158-43C8-8897-417A4EAFE715}.Debug|Default.Deploy.0 = Debug
-		{9B1DAE40-D158-43C8-8897-417A4EAFE715}.DebugLocal|Default.ActiveCfg = DebugLocal
-		{9B1DAE40-D158-43C8-8897-417A4EAFE715}.DebugLocal|Default.Build.0 = DebugLocal
-		{9B1DAE40-D158-43C8-8897-417A4EAFE715}.Release|Default.ActiveCfg = Release
-		{9B1DAE40-D158-43C8-8897-417A4EAFE715}.Release|Default.Build.0 = Release
-		{9B1DAE40-D158-43C8-8897-417A4EAFE715}.Release|Default.Deploy.0 = Release
 		{0C824BE4-8811-4015-BAEF-32F26E43DB1B}.Debug|Default.ActiveCfg = Debug
 		{0C824BE4-8811-4015-BAEF-32F26E43DB1B}.Debug|Default.Build.0 = Debug
 		{0C824BE4-8811-4015-BAEF-32F26E43DB1B}.Debug|Default.Deploy.0 = Debug

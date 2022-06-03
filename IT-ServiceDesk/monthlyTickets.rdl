@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Report xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns:cl="http://schemas.microsoft.com/sqlserver/reporting/2010/01/componentdefinition" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
     <DataSource Name="DS1">
@@ -18,7 +18,21 @@ select DATEPART(YEAR, dateclosed) as 'year', DATEPART(MONTH, dateclosed) as 'mon
 ) A
 GROUP BY A.year, A.month
 ORDER BY A.year ASC, A.month ASC</CommandText>
-        <rd:DesignerState><QueryDefinition xmlns="http://schemas.microsoft.com/ReportingServices/QueryDefinition/Relational"><Functions><SProc ColumnOwner="rpt_top5TicketsOpenedByAEU_YTD"><Parameter Name="@repdate"><Null /></Parameter></SProc></Functions><SelectedColumns><ColumnExpression ColumnOwner="rpt_top5TicketsOpenedByAEU_YTD" ColumnName="aeu" /><ColumnExpression ColumnOwner="rpt_top5TicketsOpenedByAEU_YTD" ColumnName="count" /></SelectedColumns></QueryDefinition></rd:DesignerState>
+        <rd:DesignerState>
+          <QueryDefinition xmlns="http://schemas.microsoft.com/ReportingServices/QueryDefinition/Relational">
+            <Functions>
+              <SProc ColumnOwner="rpt_top5TicketsOpenedByAEU_YTD">
+                <Parameter Name="@repdate">
+                  <Null />
+                </Parameter>
+              </SProc>
+            </Functions>
+            <SelectedColumns>
+              <ColumnExpression ColumnOwner="rpt_top5TicketsOpenedByAEU_YTD" ColumnName="aeu" />
+              <ColumnExpression ColumnOwner="rpt_top5TicketsOpenedByAEU_YTD" ColumnName="count" />
+            </SelectedColumns>
+          </QueryDefinition>
+        </rd:DesignerState>
       </Query>
       <Fields>
         <Field Name="mnt">
@@ -332,6 +346,19 @@ ORDER BY A.year ASC, A.month ASC</CommandText>
       <Prompt>repdate</Prompt>
     </ReportParameter>
   </ReportParameters>
+  <ReportParametersLayout>
+    <GridLayoutDefinition>
+      <NumberOfColumns>1</NumberOfColumns>
+      <NumberOfRows>1</NumberOfRows>
+      <CellDefinitions>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>0</RowIndex>
+          <ParameterName>repdate</ParameterName>
+        </CellDefinition>
+      </CellDefinitions>
+    </GridLayoutDefinition>
+  </ReportParametersLayout>
   <rd:ReportUnitType>Inch</rd:ReportUnitType>
   <rd:ReportServerUrl>http://phocas/ReportServer</rd:ReportServerUrl>
   <rd:ReportID>32e9f661-8127-47a7-8fa7-cc68c8ebaf19</rd:ReportID>

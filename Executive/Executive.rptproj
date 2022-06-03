@@ -52,7 +52,6 @@
     <DataSource Include="ERPData - Phocas.rds" />
   </ItemGroup>
   <ItemGroup>
-    <Report Include="DSO - Backup.rdl" />
     <Report Include="DSO.rdl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />

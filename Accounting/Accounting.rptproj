@@ -49,6 +49,7 @@
     <Reports>@(Report)</Reports>
   </PropertyGroup>
   <ItemGroup>
+    <DataSource Include="CashApp - Webapps.rds" />
     <DataSource Include="ERPData - Phocas.rds" />
   </ItemGroup>
   <ItemGroup>

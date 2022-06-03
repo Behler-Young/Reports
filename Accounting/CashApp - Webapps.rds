@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="CashApp - Webapps">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=webapps; Initial Catalog=CashApp</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>8bc5ff74-88f4-475b-86af-67a554a99137</DataSourceID>
+</RptDataSource>
