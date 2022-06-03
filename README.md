@@ -54,5 +54,5 @@ First open properties for the project/folder to publish. Make sure the SQL Serve
 
 For more information, see these articles:
 
-[SSRS in Visual Studio](https://www.sqlservercentral.com/articles/ssrs-in-visual-studio)
-[User Tools Option](https://docs.microsoft.com/en-us/sql/reporting-services/tools/design-reporting-services-paginated-reports-with-report-designer-ssrs?view=sql-server-ver16)
+-[SSRS in Visual Studio](https://www.sqlservercentral.com/articles/ssrs-in-visual-studio)
+-[User Tools Option](https://docs.microsoft.com/en-us/sql/reporting-services/tools/design-reporting-services-paginated-reports-with-report-designer-ssrs?view=sql-server-ver16)
