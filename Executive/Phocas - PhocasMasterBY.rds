@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Phocas - PhocasMasterBY">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=phocas; Initial Catalog=PhocasMasterBY</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>0af827bf-1af5-454d-9e10-8b08e9ce1224</DataSourceID>
+</RptDataSource>

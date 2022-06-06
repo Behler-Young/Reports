@@ -50,9 +50,11 @@
   </PropertyGroup>
   <ItemGroup>
     <DataSource Include="ERPData - Phocas.rds" />
+    <DataSource Include="Phocas - PhocasMasterBY.rds" />
   </ItemGroup>
   <ItemGroup>
-    <Report Include="DSO.rdl" />
+    <Report Include="EOS Weekly Scorecard.rdl" />
+    <Report Include="Phocas User Access - Sales.rdl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
 </Project>

@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <Description>Export file that breaks out Serial numbers to each line.</Description>
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
     <DataSource Name="ERPDataPhocas">
